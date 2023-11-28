@@ -40,6 +40,10 @@ li{
     cursor: pointer;
     color: black;
 }
+li.active,li:hover{
+    background: #427D9D;
+    transition: 0.5s;
+  }
 
 .content{
     width: 100%;
