@@ -40,4 +40,153 @@ li{
 }
 body{
     background-color: #9BBEC8;
-  }
+}
+    .vendet{
+        margin-top: 100px;
+        margin-bottom: 70px;
+      }
+      .vendet-text {
+        text-align: center;
+        margin-bottom: 50px;
+      }
+      
+      .vendet-text small {
+        font-family: Roboto;
+        color: #ffc342;
+        font-size: 15px;
+        font-weight: bolder;
+      }
+      
+      .vendet-text h2 {
+        font-family: Barlow Condensed;
+        font-size: 55px;
+        letter-spacing: 1px;
+      }
+      
+      .shtetet {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 30px;
+        align-items: center;
+        justify-items: center;
+        text-align: center;
+      
+      }
+      
+      .shteti {
+        border: 1px solid lightgray;
+        box-shadow: 2px 2px 6px 0 rgba(0, 0, 0, 0.3);
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        width: 80%;
+        height: auto;
+        border: 7px solid black;
+        border-radius: 20px;
+      }
+      
+      .shteti img {
+        max-width: 100%;
+        height: 300px;
+        border-radius: 8px;
+        cursor: pointer;
+      }
+      
+      .shtetet .text {
+        padding: 20px;
+        font-family: Barlow Condensed;
+        line-height: 50px;
+      }
+      
+      .shtetet .info-box {
+        display: flex;
+        flex-flow: row;
+        background-color: #fff;
+        font-size: 18px;
+        font-family: Roboto;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color:#161A30 ;
+      
+      }
+      .koha{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      }
+      
+      .shtetet .koha {
+        flex: 1;
+        color: #161A30;
+      }
+      
+      .shtetet .lokacioni {
+        flex: 2;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: #161A30;
+        
+      }
+      
+      .shtetet .cmimi {
+        color: white;
+        font-size: 20px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      }
+      .zm{
+        float: left;
+        position: relative;
+        width: 100%;
+        height: 320px;
+        overflow: hidden;
+      }
+      
+      .zm .fotoja {
+        position: absolute;
+        overflow: hidden;
+      }
+      
+      .fotoja img {
+        -webkit-transition: 0.8s ease;
+        transition: 0.8s ease;
+      }
+      
+      .shteti:hover .zm img {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+      }
+      .info-box:hover{
+        background:gray;
+        transition: 0.5s;
+      }
+      .info-box{
+        cursor: pointer;
+      }
+      li:hover{
+        color: aqua;
+        text-decoration: underline;
+      }
+      .footer{
+        height: 115px;
+        background: #161A30;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+      }
+      .ttll{
+        text-align: center;
+        font-family: Copperplate,fantasy ;
+        font-size: 50px;
+        color:  #161A30;
+        text-shadow: 0px 35px 0px white;
+      }
+      .banner1{
+        display: flex;
+        justify-content: space-between;
+      }
+      .text{
+        background-color: #161A30;
+      
+      }
+      .text h2{
+        color: white;
+      }
