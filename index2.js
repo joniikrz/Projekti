@@ -11,5 +11,5 @@ home.onclick=() =>{
         window.location.assign("index3.html")
     }
     login.onclick=() =>{
-        window.location.assign("index4.html")
+        window.location.assign("index5.html")
     }
