@@ -7,7 +7,7 @@ home.onclick=() =>{
     travel1.onclick=() =>{
         window.location.assign("index1.html")
     }
-    ofertat.onclick=() =>{
+    aboutus.onclick=() =>{
         window.location.assign("index3.html")
     }
     login.onclick=() =>{
