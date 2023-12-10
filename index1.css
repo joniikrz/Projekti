@@ -202,3 +202,81 @@ body{
       a{
         color: white;
       }
+      @media only screen and (max-width: 600px) {
+        .nav {
+            flex-direction: column;
+            text-align: center;
+        }
+      
+        .nav ul {
+            margin-top: 20px;
+        }
+      
+        .nav ul li {
+            display: block;
+            margin: 10px 0;
+        }
+      
+        .banner {
+            margin-bottom: 40px;
+        }
+      
+        .shtetet {
+            grid-template-columns: 1fr;
+        }
+      }
+      @media only screen and (min-width: 601px) and (max-width: 768px) {
+        .nav ul li {
+            font-size: 18px;
+        }
+      
+        .vendet {
+            margin-top: 80px;
+            margin-bottom: 50px;
+        }
+      
+        .shteti {
+            width: 90%;
+        }
+      
+        .shteti img {
+            height: 250px;
+        }
+      
+        .shtetet .text {
+            line-height: 40px;
+        }
+      
+        .info-box {
+            font-size: 16px;
+        }
+      }
+      
+      @media only screen and (min-width: 769px) and (max-width: 1024px) {
+        .nav ul li {
+            font-size: 22px;
+        }
+      
+        .vendet {
+            margin-top: 100px;
+            margin-bottom: 60px;
+        }
+      
+        .shteti {
+            width: 70%;
+        }
+      
+        .shteti img {
+            height: 280px;
+        }
+      
+        .shtetet .text {
+            line-height: 45px;
+        }
+      
+        .info-box {
+            font-size: 18px;
+        }
+      }
+      
+      

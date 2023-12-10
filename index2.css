@@ -91,3 +91,64 @@ button:hover{
         height: 100%;
     }
 }
+@media screen and (max-width: 600px) {
+    .nav {
+        padding: 15px;
+    }
+
+    .nav ul li {
+        margin: 10px;
+        font-size: 16px;
+    }
+
+    .content h1 {
+        font-size: 40px;
+    }
+
+    button {
+        width: 150px;
+        padding: 10px;
+        font-size: 16px;
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    .nav {
+        padding: 20px;
+    }
+
+    .nav ul li {
+        margin: 15px;
+        font-size: 18px;
+    }
+
+    .content h1 {
+        font-size: 50px;
+    }
+
+    button {
+        width: 180px;
+        padding: 12px;
+        font-size: 18px;
+    }
+}
+@media screen and (min-width: 1025px) {
+    .nav {
+        padding: 25px;
+    }
+
+    .nav ul li {
+        margin: 20px;
+        font-size: 20px;
+    }
+
+    .content h1 {
+        font-size: 60px;
+    }
+
+    button {
+        width: 220px;
+        padding: 15px;
+        font-size: 20px;
+    }
+}
+
