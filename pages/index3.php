@@ -11,10 +11,10 @@
       <div class="nav">
         <img src="logoo.png" alt="" class="logo" />
         <ul>
-          <li id="home">HOME</li>
-          <li id="travel">TRAVEL</li>
-          <li id="aboutus">ABOUT US</li>
-          <li id="login">LOG IN</li>
+          <li><a href="index2.php">HOME</a></li>
+          <li><a href="index1.php">TRAVEL</a></li>
+          <li><a href="index3.php">ABOUT US</a></li>
+          <li>LOG IN</li>
         </ul>
       </div>
     </div>

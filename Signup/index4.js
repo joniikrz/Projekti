@@ -33,7 +33,7 @@ let emri=document.getElementById('emri');
                 passwordError.textContent='★Warning,Provoni nje password te ri qe permban 8 karaktere';
                 return;
             }
-            alert('Jane ruajtuar te dhenat');
+            
         }
         login.onclick=()=>{
             window.location.assign("index5.html");

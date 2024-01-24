@@ -10,7 +10,7 @@
     <div class="wrapper">
       <div class="log-box">
         <div>
-          <img src="logo.png" alt="lo" />
+          <img src="../assets/logoo.png" alt="lo" />
           <h3>LOG IN</h3>
         </div>
         <div class="user">

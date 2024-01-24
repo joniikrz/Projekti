@@ -9,12 +9,12 @@
 <body>
     <div class="banner">
     <div class="nav">
-        <img src="logoo.png" alt="" class="logo">
+        <img src="../assets/logoo.png" alt="" class="logo">
         <ul>
-         <li id="home">HOME</li>
-           <li id="travel">TRAVEL</li>
-           <li id="aboutus">ABOUT US</li>
-          <li id="login">LOG IN</li>
+         <li><a href="index2.php">HOME</a></li>
+           <li><a href="index1.php">TRAVEL</a></li>
+           <li><a href="index3.php">ABOUT US</a></li>
+          <li>LOG IN</li>
           
         </ul>
     </div>
@@ -44,7 +44,7 @@
         <div class="shteti">
             <div class="zm">
                 <div class="fotoja">
-                    <img src="pariss.jpg">
+                    <img src="../assets/pariss.jpg">
                 </div>
             </div>
 
@@ -62,7 +62,7 @@
         <div class="shteti">
             <div class="zm">
                 <div class="fotoja">
-                    <img src="instanbul.jpg">
+                    <img src="../assets/instanbul.jpg">
                 </div>
             </div>
 
@@ -81,7 +81,7 @@
             <div class="zm">
                 <div class="fotoja">
                     <img
-                        src="alpet.jpg">
+                        src="../assets/alpet.jpg">
                 </div>
             </div>
 
@@ -99,7 +99,7 @@
         <div class="shteti">
             <div class="zm">
                 <div class="fotoja">
-                    <img src="amsterdam.jpg">
+                    <img src="../assets/amsterdam.jpg">
                 </div>
             </div>
 
@@ -117,8 +117,7 @@
         <div class="shteti">
             <div class="zm">
                 <div class="fotoja">
-                    <img
-                        src="madrid.jpg">
+                    <img src="../assets/madrid.jpg">
                 </div>
             </div>
 
@@ -127,16 +126,15 @@
                 <h2>Madrid</h2>
                 <p class="cmimi">$680/ Për Person</p>
                 <div class="info-box">
-                    <p class="koha">🕓 4 Ditë</p>
+                <p class="koha">🕓 4 Ditë</p>
                     <p class="lokacioni">Nisja prej ✈ Tiranës</p>
-                    <p class="koha">🕓 4 Ditë</p>
                 </div>
             </div>
         </div>
         <div class="shteti">
           <div class="zm">
               <div class="fotoja">
-                  <img src="berlin.jpeg">
+                  <img src="../assets/berlin.jpeg">
               </div>
           </div>
 
@@ -153,7 +151,7 @@
         <div class="shteti">
             <div class="zm">
                 <div class="fotoja">
-                    <img src="london.jpg">
+                    <img src="../assets/london.jpg">
                 </div>
             </div>
            
@@ -163,7 +161,7 @@
                 <h2>London</h2>
                 <p class="cmimi">$1050/ Për Person</p>
                 <div class="info-box">
-                    <p class="koha">🕓 5Days</p>
+                    <p class="koha">🕓 5 Ditë</p>
                     <p class="lokacioni">Nisja prej ✈ Prishtinës</p>
                 </div>
             </div>
@@ -171,7 +169,7 @@
             <div class="shteti">
                 <div class="zm">
                     <div class="fotoja">
-                        <img src="newyork.jpg">
+                        <img src="../assets/newyork.jpg">
                     </div>
                 </div>
                
@@ -189,7 +187,7 @@
                 <div class="shteti">
                     <div class="zm">
                         <div class="fotoja">
-                            <img src="copennhagen.jpg">
+                            <img src="../assets/copennhagen.jpg">
                         </div>
                     </div>
                    
@@ -199,7 +197,7 @@
                         <h2>Copenhagen</h2>
                         <p class="cmimi">$480/ Për Person</p>
                         <div class="info-box">
-                            <p class="koha">🕓 4 Days</p>
+                            <p class="koha">🕓 4 Ditë</p>
                             <p class="lokacioni">Nisja prej ✈ Prishtinës</p>
                         </div>
                     </div>
@@ -207,7 +205,7 @@
                     <div class="shteti">
                         <div class="zm">
                             <div class="fotoja">
-                                <img src="Budapesst.jpg">
+                                <img src="../assets/Budapesst.jpg">
                             </div>
                         </div>
                        
@@ -225,7 +223,7 @@
                         <div class="shteti">
                             <div class="zm">
                                 <div class="fotoja">
-                                    <img src="prague.png">
+                                    <img src="../assets/prague.png">
                                 </div>
                             </div>
                            

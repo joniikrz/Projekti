@@ -17,7 +17,7 @@ function validate(){
         passwordError.style.color="red";
         return;
     }
-    alert('Jane ruajtuar te dhenat');
+    
 }
 signup.onclick=()=>{
     window.location.assign("index4.html");
