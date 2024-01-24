@@ -1,10 +1,10 @@
 let i=0;
 let imgArray=[
-    "slide-1.jpg",
-    "slide-2.jpg",
-    "slide-3.jpg",
-    "slide-4.jpg",
-    "slide-5.jpg",
+    "../assets/slide-1.jpg",
+    "../assets/slide-2.jpg",
+    "../assets/slide-3.jpg",
+    "../assets/slide-4.jpg",
+    "../assets/slide-5.jpg",
 ];
 function ndrroIMG(){
     document.getElementById('slideshow').src=imgArray[i];

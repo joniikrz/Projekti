@@ -9,7 +9,7 @@
   <body>
     <div class="banner">
       <div class="nav">
-        <img src="logoo.png" alt="" class="logo" />
+        <img src="../assets/logoo.png" alt="" class="logo" />
         <ul>
           <li><a href="index2.php">HOME</a></li>
           <li><a href="index1.php">TRAVEL</a></li>

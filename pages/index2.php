@@ -9,10 +9,10 @@
 <body>
     <div class="banner">
         <video autoplay loop muted plays-inline>
-            <source src="video-1.mp4" type="video/mp4">
+            <source src="../assets/video-1.mp4" type="video/mp4">
         </video>
         <div class="nav">
-        <img src="logo.png" alt="" class="logo">
+        <img src="../assets/logoo.png" alt="" class="logo">
         <ul>
             <li><a href="index2.php">HOME</a></li>
             <li><a href="index1.php">TRAVEL</a></li>
