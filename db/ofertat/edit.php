@@ -2,9 +2,9 @@
 include_once ('OfertatRepository.php');
 class updateId extends DatabaseConnection{
     public function newOfertat(){
-        $ofertatlId = $_GET['id'];
+        $ofertatId = $_GET['id'];
 
-   if (isset($_POST['editBtn'])) {
+    if (isset($_POST['editBtn'])) {
     $emri = $_POST['emri'];
     $cmimi = $_POST['cmimi'];
     $koha = $_POST['koha'];
@@ -13,7 +13,7 @@ class updateId extends DatabaseConnection{
 
     $query = "UPDATE travel SET Emri= :emri, Cmimi = :cmimi, Koha=:koha, Lokacioni = :lokacioni, Imgsrc = :imgsrc  WHERE Id= :id";
     $stmt = $this->startConnection()->prepare($query);
-    $stmt->bindParam(":id", $ofertatlId, PDO::PARAM_INT);
+    $stmt->bindParam(":id", $ofertatId, PDO::PARAM_INT);
     $stmt->bindParam(":emri", $emri, PDO::PARAM_STR);
     $stmt->bindParam(":cmimi", $cmimi, PDO::PARAM_STR);
     $stmt->bindParam(":koha", $koha, PDO::PARAM_STR);
@@ -48,7 +48,7 @@ $updateId->newOfertat();
     <title>Document</title>
 </head>
 <body>
-    <h3>Edit User</h3>
+    <h3>Edit Oferta</h3>
     <form action="" method="post">
         <input type="text" name="emri" > <br> <br>
         <input type="text" name="cmimi"> <br> <br>

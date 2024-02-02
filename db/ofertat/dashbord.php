@@ -13,7 +13,7 @@
     <div class="container">
         <div class="list">
             <?php
-            include('C:\xampp\htdocs\Projekti\Projekti\db\travel\TravelRepository.php');
+            include('C:\xampp\htdocs\Projekti\Projekti\db\ofertat\OfertatRepository.php');
             $ofertatRepository = new OfertatRepository();
             $ofertat = $ofertatRepository->getAllOfertat();
 

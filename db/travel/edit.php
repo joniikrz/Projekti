@@ -48,7 +48,7 @@ $updateId->newTravel();
     <title>Document</title>
 </head>
 <body>
-    <h3>Edit User</h3>
+    <h3>Edit Travel</h3>
     <form action="" method="post">
         <input type="text" name="emri" > <br> <br>
         <input type="text" name="cmimi"> <br> <br>

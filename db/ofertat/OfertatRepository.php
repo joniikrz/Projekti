@@ -69,16 +69,6 @@ class OfertatRepository{
         echo "<script>alert('delete was successful'); </script>";
    } 
 
-function getOfertatbyId($id){
-    $conn = $this->connection;
-
-    $sql = "SELECT * FROM ofertat where Id=?";
-    $statement = $conn->prepare($sql);
-    $statement->execute([$id]);
-    $travels = $statement->fetchAll();
-
-    return $travels;
-}
 }
 
 ?>
