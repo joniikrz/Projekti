@@ -1,6 +1,6 @@
 <?php
-include_once 'userRepository.php';
-include_once 'user.php';
+include_once 'UserRepository.php';
+include_once 'User.php';
 
 if(isset($_POST['registerBtn'])){
     if(empty($_POST['emri']) || empty($_POST['mbiemri']) || empty($_POST['email']) ||

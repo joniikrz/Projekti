@@ -11,7 +11,7 @@
     <div class="container">
         <div class="list">
             <?php
-            include ('C:\xampp\htdocs\Projekti\db\travel\travelRepository.php');
+            include ('C:\xampp\htdocs\Projekti\Projekti\db\travel\travelRepository.php');
             $travelRepository = new TravelRepository();
             $travels = $travelRepository->getAllTravels();
 

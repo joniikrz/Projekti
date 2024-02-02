@@ -16,7 +16,7 @@
     <div class="container">
         <div class="list">
             <?php
-            include ('C:\xampp\htdocs\Projekti\db\users\userRepository.php');
+            include ('C:\xampp\htdocs\Projekti\Projekti\db\users\UserRepository.php');
             $userRepository = new UserRepository();
             $users = $userRepository->getAllUsers();
 

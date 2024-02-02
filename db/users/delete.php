@@ -1,7 +1,7 @@
 <?php
 
 $userId = $_GET['id'];
-include_once 'userRepository.php';
+include_once 'UserRepository.php';
 
 
 
