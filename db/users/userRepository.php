@@ -19,12 +19,12 @@ class UserRepository{
         $diteLindja = $user->getMbiemri();
         $email = $user->getEmail();
         $password = $user->getPassword();
-
-        $sql = "INSERT INTO users (Id_User,Emri,Mbiemri,Ditelindja,Email,Passi) VALUES (?,?,?,?,?,?)";
+        $role="user";
+        $sql = "INSERT INTO users (Id_User,Emri,Mbiemri,Ditelindja,Email,Passi,Role) VALUES (?,?,?,?,?,?,?)";
 
         $statement = $conn->prepare($sql);
 
-        $statement->execute([$id,$emri,$mbiemri,$diteLindja,$email,$password]);
+        $statement->execute([$id,$emri,$mbiemri,$diteLindja,$email,$password,$role]);
 
         echo "<script> alert('User has been inserted successfuly!'); </script>";
 

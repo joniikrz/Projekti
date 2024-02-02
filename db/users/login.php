@@ -9,7 +9,6 @@ if(empty($_POST['email']) || empty($_POST['password'])){
 
     $email=$_POST['email'];
     $password=$_POST['password'];
-    $i=0;
     foreach($users as $user){
       if($user['Email'] == $email && $user['Passi'] == $password){
         session_start();
