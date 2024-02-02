@@ -39,7 +39,7 @@ $travels = $travelRepository->getAllTravels();
             <div class="shteti">
                 <div class="zm">
                     <div class="fotoja">
-                        <img src=<?php echo $travel["Imgsrc"]?> alt="">
+                        <img src=<?php echo $travel["Imgsrc"]?> alt="Error">
                     </div>
                 </div>
                 <div class=text>
