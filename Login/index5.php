@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="index5.css" />
   </head>
   <body>
-    <form action="<?php echo $_SERVER['PHP_SELF'] ?>" method="post">
+  <form action="<?php echo $_SERVER['PHP_SELF'] ?>" method="POST" >
     <div class="wrapper">
       <div class="log-box">
         <div>
@@ -19,18 +19,18 @@
           <h3>LOG IN</h3>
         </div>
         <div class="user">
-          <input type="text" id="email" placeholder="Email" />
+          <input type="text" id="email" placeholder="Email" name="email"/>
         </div>
         <div id="emailError"></div>
         <div class="user">
-          <input type="password" id="password" placeholder="Password" />
+          <input type="password" id="password" name="password" placeholder="Password" />
         </div>
         <div id="passwordError"></div>
-        <a class="dh-acc" href="../Signup/index4.php">You dont have an account?Sign up!</a>
+        <a class="dh-acc" href="../SignUp/index4.php" id="signup" >You dont have an account?Sign up!</a>
       </div>
-      <button onclick="validate()">LOG IN</button>
+      <button name="loginbtn" onclick="validate()">LOG IN</button>
     </div>
-    </form>
+  </form>
     <script src="index5.js"></script>
   </body>
 </html>

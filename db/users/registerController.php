@@ -4,7 +4,7 @@ include_once 'user.php';
 
 if(isset($_POST['registerBtn'])){
     if(empty($_POST['emri']) || empty($_POST['mbiemri']) || empty($_POST['email']) ||
-    empty($_POST['email']) || empty($_POST['password'])){
+    empty($_POST['diteLindja']) || empty($_POST['password'])){
         echo "Fill all fields!";
     }else{
         $emri = $_POST['emri'];
