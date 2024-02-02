@@ -9,9 +9,9 @@
 </head>
 <body>
 <div class="fks">
-        <div class="add"><button><a href="register.php">ADD</a></button></div>
-        <div class="travel"><button><a href="../travel/dashboard.php">Travel Dashboard</a></button></div>
-        <div class="ofertat"><button><a href="../ofertat/dashboard.php">Ofertat Dashboard</a></button></div>
+        <button><a href="register.php">ADD</a></button></div>
+        <button><a href="../travel/dashboard.php">Travel Dashboard</a></button></div>
+        <button><a href="../ofertat/dashboard.php">Ofertat Dashboard</a></button></div>
     </div>
     <div class="container">
         <div class="list">
@@ -39,5 +39,8 @@
             ?>
         </div>
     </div>
+         <button><a href="register.php">ADD</a></button></div>
+        <button><a href="../travel/dashboard.php">Travel Dashboard</a></button></div>
+        <button><a href="../ofertat/dashboard.php">Ofertat Dashboard</a></button></div>
 </body>
 </html>
