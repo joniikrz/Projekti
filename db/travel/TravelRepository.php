@@ -67,17 +67,8 @@ class TravelRepository{
 
         echo "<script>alert('delete was successful'); </script>";
    }
+
+
 }
-function getTravelsbyId($id){
-    $conn = $this->connection;
-
-    $sql = "SELECT * FROM travel where Id=?";
-    $statement = $conn->prepare($sql);
-    $statement->execute([$id]);
-    $travels = $statement->fetchAll();
-
-    return $travels;
-}
-
 
 ?>

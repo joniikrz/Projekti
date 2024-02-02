@@ -50,6 +50,9 @@ body{
     .vendet{
         margin-top: 100px;
         margin-bottom: 70px;
+        width: 400px;
+        display: flex;
+        flex-wrap: wrap;
       }
       .vendet-text {
         text-align: center;
@@ -70,10 +73,7 @@ body{
       }
       
       .shtetet {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        grid-gap: 30px;
+       display: flex;
         align-items: center;
         justify-items: center;
         text-align: center;

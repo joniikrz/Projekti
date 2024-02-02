@@ -34,8 +34,10 @@
             ?>
         </div>
     </div>
-         <button><a href="register.php">ADD</a></button></div>
-        <button><a href="../travel/dashboard.php">Travel Dashboard</a></button></div>
-        <button><a href="../ofertat/dashboard.php">Ofertat Dashboard</a></button></div>
+    <div class="butonat">
+        <button><a href="register.php">ADD</a></button>
+        <button><a href="../users/dashboard.php">User Dashboard</a></button>
+        <button><a href="../ofertat/dashboard.php">Ofertat Dashboard</a></button>
+    </div>
 </body>
 </html>

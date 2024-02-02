@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel List</title>
-   <link rel="stylesheet" href="../dashboard.css">
+    <link rel="stylesheet" href="../dashboard.css">
 </head>
+
 <body>
     <div class="container">
         <div class="list">
             <?php
-            include ('C:\xampp\htdocs\Projekti\Projekti\db\travel\TravelRepository.php');
+            include('C:\xampp\htdocs\Projekti\Projekti\db\travel\TravelRepository.php');
             $travelRepository = new TravelRepository();
             $travels = $travelRepository->getAllTravels();
 
@@ -34,8 +36,12 @@
             ?>
         </div>
     </div>
-        <button><a href="register.php">ADD</a></button></div>
-        <button><a href="../travel/dashboard.php">User Dashboard</a></button></div>
-        <button><a href="../ofertat/dashboard.php">Ofertat Dashboard</a></button></div>
+    <div class="butonat">
+        <button><a href="register.php">ADD</a></button>
+        <button><a href="../users/dashboard.php">User Dashboard</a></button>
+        <button><a href="../ofertat/dashboard.php">Ofertat Dashboard</a></button>
+    </div>
+
 </body>
+
 </html>

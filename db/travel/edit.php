@@ -1,12 +1,40 @@
 <?php
+include_once ('TravelRepository.php');
+class updateId extends DatabaseConnection{
+    public function newUSER(){
+        $travelId = $_GET['id'];
 
-$travelId = $_GET['id'];
-include_once 'travelRepository.php';
+   if (isset($_POST['editBtn'])) {
+    $emri = $_POST['emri'];
+    $cmimi = $_POST['cmimi'];
+    $koha = $_POST['koha'];
+    $lokacioni = $_POST['lokacioni'];
+    $imgsrc = $_POST['imgsrc'];
+
+    $query = "UPDATE travel SET Emri= :emri, Cmimi = :cmimi, Koha=:koha, Lokacioni = :lokacioni, Imgsrc = :imgsrc  WHERE Id= :id";
+    $stmt = $this->startConnection()->prepare($query);
+    $stmt->bindParam(":id", $travelId, PDO::PARAM_INT);
+    $stmt->bindParam(":emri", $emri, PDO::PARAM_STR);
+    $stmt->bindParam(":cmimi", $cmimi, PDO::PARAM_STR);
+    $stmt->bindParam(":koha", $koha, PDO::PARAM_STR);
+    $stmt->bindParam(":lokacioni", $lokacioni, PDO::PARAM_STR);
+    $stmt->bindParam(":imgsrc", $imgsrc, PDO::PARAM_STR);
+
+    try {
+        $stmt->execute();
+        header("Location: dashboard.php ");
+    } catch (PDOException $e) {
+        echo "Problem: " . $e->getMessage();
+    }
+    exit();
+}
+    }
+}
+$updateId = new updateId();
+$updateId->newTravel();
 
 
 
-$travelRepository = new TravelRepository();
-$travelRepository->getTravelsbyId($travelId);
 
 
 ?>
@@ -22,31 +50,16 @@ $travelRepository->getTravelsbyId($travelId);
 <body>
     <h3>Edit User</h3>
     <form action="" method="post">
-        <input type="text" name="id"  value="<?=$user['Id']?>" readonly> <br> <br>
-        <input type="text" name="emri"  value="<?=$user['Emri']?>"> <br> <br>
-        <input type="text" name="cmimi"  value="<?=$user['Koha']?>"> <br> <br>
-        <input type="text" name="koha"  value="<?=$user['Cmimi']?>"> <br> <br>
-        <input type="text" name="lokacioni"  value="<?=$user['Lokacioni']?>"> <br> <br>
-        <input type="text" name="imgsrc"  value="<?=$user['Imgsrc']?>"> <br> <br>
+        <input type="text" name="emri" > <br> <br>
+        <input type="text" name="cmimi"> <br> <br>
+        <input type="text" name="koha" > <br> <br>
+        <input type="text" name="lokacioni"> <br> <br>
+        <input type="text" name="imgsrc"> <br> <br>
 
         <input type="submit" name="editBtn" value="save"> <br> <br>
     </form>
 </body>
 </html>
 
-<?php 
-
-if(isset($_POST['editBtn'])){
-    $id = $user['Id'];
-    $emri = $_POST['Emri'];
-    $cmimi = $_POST['Cmimi'];
-    $koha = $_POST['Koha'];
-    $lokacioni = $_POST['Lokacioni'];
-    $imgsrc = $_POST['Imgsrc'];
-
-    $userRepository->updateTravel($id,$emri,$cmimi,$koha,$lokacioni,$imgsrc);
-    header("location:dashboard.php");
-}
 
 
-?>
