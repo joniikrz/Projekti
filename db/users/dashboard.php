@@ -8,11 +8,6 @@
     <link rel="stylesheet" href="../dashboard.css">
 </head>
 <body>
-<div class="fks">
-        <button><a href="register.php">ADD</a></button></div>
-        <button><a href="../travel/dashboard.php">Travel Dashboard</a></button></div>
-        <button><a href="../ofertat/dashboard.php">Ofertat Dashboard</a></button></div>
-    </div>
     <div class="container">
         <div class="list">
             <?php
