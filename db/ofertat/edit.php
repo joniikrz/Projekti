@@ -1,8 +1,8 @@
 <?php
-include_once ('TravelRepository.php');
+include_once ('OfertatRepository.php');
 class updateId extends DatabaseConnection{
-    public function newTravel(){
-        $travelId = $_GET['id'];
+    public function newOfertat(){
+        $ofertatlId = $_GET['id'];
 
    if (isset($_POST['editBtn'])) {
     $emri = $_POST['emri'];
@@ -13,7 +13,7 @@ class updateId extends DatabaseConnection{
 
     $query = "UPDATE travel SET Emri= :emri, Cmimi = :cmimi, Koha=:koha, Lokacioni = :lokacioni, Imgsrc = :imgsrc  WHERE Id= :id";
     $stmt = $this->startConnection()->prepare($query);
-    $stmt->bindParam(":id", $travelId, PDO::PARAM_INT);
+    $stmt->bindParam(":id", $ofertatlId, PDO::PARAM_INT);
     $stmt->bindParam(":emri", $emri, PDO::PARAM_STR);
     $stmt->bindParam(":cmimi", $cmimi, PDO::PARAM_STR);
     $stmt->bindParam(":koha", $koha, PDO::PARAM_STR);
@@ -31,7 +31,7 @@ class updateId extends DatabaseConnection{
     }
 }
 $updateId = new updateId();
-$updateId->newTravel();
+$updateId->newOfertat();
 
 
 
@@ -60,6 +60,4 @@ $updateId->newTravel();
     </form>
 </body>
 </html>
-
-
 
