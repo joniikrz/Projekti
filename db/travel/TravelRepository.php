@@ -1,11 +1,11 @@
 <?php 
-include "../DatabaseConnection.php";
+include('C:\xampp\htdocs\Projekti\Projekti\db\DatabaseConnection.php');
 
 class TravelRepository{
     private $connection;
 
     function __construct(){
-        $conn = new DatabaseConenction;
+        $conn = new DatabaseConnection;
         $this->connection = $conn->startConnection();
     }
    

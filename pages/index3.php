@@ -1,3 +1,6 @@
+<?php
+    include 'adminoruser.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -11,10 +14,12 @@
       <div class="nav">
         <img src="../assets/logoo.png" alt="" class="logo" />
         <ul>
+          <li><a href="../db/users/dashboard.php" class="<?php echo $hide?>">DASHBOARD</a></li>
           <li><a href="index2.php">HOME</a></li>
           <li><a href="index1.php">TRAVEL</a></li>
+          <li><a href="index6.php">OFERTAT</a></li>
           <li><a href="index3.php">ABOUT US</a></li>
-          <li>LOG IN</li>
+          <li><a href="../Logout/logout.php">LOG OUT</a></li>
         </ul>
       </div>
     </div>

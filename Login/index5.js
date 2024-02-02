@@ -19,6 +19,4 @@ function validate(){
     }
     
 }
-signup.onclick=()=>{
-    window.location.assign("index4.html");
-}
+

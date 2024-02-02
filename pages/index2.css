@@ -22,6 +22,11 @@
     align-items: center;
    
 }
+
+.hide{
+    display: none;
+  }
+
 .logo{
     width: 150px;
     cursor: pointer;

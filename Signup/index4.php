@@ -1,3 +1,8 @@
+<?php
+
+include_once '../db/users/registerController.php';
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +13,7 @@
 </head>
 </head>
 <body>
+    <form action="<?php echo $_SERVER['PHP_SELF'] ?>" method="POST" class="registerForm">
     <div class="wrapper">
         <div class="log-box">
             <img src="../assets/logoo.png" alt="lo">
@@ -38,12 +44,13 @@
             <input type="password" id="password" placeholder="Password">
             </div>
             <div id="passwordError"></div>
-            <a href="#" class="have-acc" id="login">You already have an account?Log in!</a>
+            <a href="../Login/index5.php" class="have-acc">You already have an account?Log in!</a>
              </div>
            
-             <button onclick="validate()">SIGN UP</button>
+             <button name="registerBtn" type="submit">SIGN UP</button>
         </div>
     </div>
+    </form>
     <script src="index4.js"></script>
 </body>
 </html>

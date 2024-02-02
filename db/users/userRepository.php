@@ -1,11 +1,11 @@
 <?php 
-include_once '../databaseConnection.php';
+include('C:\xampp\htdocs\Projekti\Projekti\db\DatabaseConnection.php');
 
 class UserRepository{
     private $connection;
 
     function __construct(){
-        $conn = new DatabaseConenction;
+        $conn = new DatabaseConnection;
         $this->connection = $conn->startConnection();
     }
     
@@ -66,7 +66,22 @@ class UserRepository{
         $statement->execute([$id]);
 
         echo "<script>alert('delete was successful'); </script>";
-   } 
+   }
+
+   function changeRole($id){
+    $conn = $this->connection;
+    $sql ="UPDATE users 
+        SET Role = CASE
+        WHEN Role = 'user' THEN 'admin'
+        WHEN Role = 'admin' THEN 'user'
+        END
+        WHERE Id_User = ?";
+    $statement = $conn->prepare($sql);
+
+    $statement->execute([$id]);
+
+    echo "<script>alert('role change was successful'); </script>";
+    }
 }
 
 

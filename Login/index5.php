@@ -1,3 +1,7 @@
+<?php
+ include '../db/users/login.php'
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -7,6 +11,7 @@
     <link rel="stylesheet" href="index5.css" />
   </head>
   <body>
+    <form action="<?php echo $_SERVER['PHP_SELF'] ?>" method="post">
     <div class="wrapper">
       <div class="log-box">
         <div>
@@ -21,10 +26,11 @@
           <input type="password" id="password" placeholder="Password" />
         </div>
         <div id="passwordError"></div>
-        <a class="dh-acc" href="#" id="signup" >You dont have an account?Sign up!</a>
+        <a class="dh-acc" href="../Signup/index4.php">You dont have an account?Sign up!</a>
       </div>
       <button onclick="validate()">LOG IN</button>
     </div>
+    </form>
     <script src="index5.js"></script>
   </body>
 </html>
