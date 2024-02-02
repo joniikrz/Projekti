@@ -17,7 +17,7 @@ if(empty($_POST['email']) || empty($_POST['password'])){
         $_SESSION['email'] = $email;
         $_SESSION['password'] = $password;
         $_SESSION['role']=$role;
-        header("location:../kodi/index2.php");
+        header("location:../pages/index2.php");
         exit();
         
       }
