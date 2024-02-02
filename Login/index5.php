@@ -26,7 +26,7 @@
           <input type="password" id="password" name="password" placeholder="Password" />
         </div>
         <div id="passwordError"></div>
-        <a class="dh-acc" href="../SignUp/index4.php" id="signup" >You dont have an account?Sign up!</a>
+        <a class="dh-acc" href="../Signup/index4.php" id="signup" >You dont have an account?Sign up!</a>
       </div>
       <button name="loginbtn" onclick="validate()">LOG IN</button>
     </div>

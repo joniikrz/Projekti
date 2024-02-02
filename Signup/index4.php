@@ -44,7 +44,7 @@ include_once '../db/users/registerController.php';
             <input type="password"name="password" id="password" placeholder="Password">
             </div>
             <div id="passwordError"></div>
-            <a href="../Log in/index5.php" class="have-acc" id="login">You already have an account?Log in!</a>
+            <a href="../Login/index5.php" class="have-acc" id="login">You already have an account?Log in!</a>
              </div>
             
              <button name="registerBtn" type="submit">SIGN UP</button>
