@@ -12,7 +12,9 @@
    
 
 }
-
+.a{
+    text-decoration: none;
+  }
 .nav{
     width: 90%;
     padding: 25px;

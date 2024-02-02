@@ -17,8 +17,8 @@
         <li><a href="../db/users/dashboard.php" class="<?php echo $hide?>">DASHBOARD</a></li>
          <li><a href="index2.php">HOME</a></li>
            <li><a href="index1.php">TRAVEL</a></li>
+           <li><a href="index6.php">OFERTAT</a></li>
            <li><a href="index3.php">ABOUT US</a></li>
-          <li><a href="index6.php">OFERTAT</a></li>
           <li><a href="../Logout/logout.php">LOG OUT</a></li>
         </ul>
     </div>

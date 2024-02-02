@@ -29,7 +29,9 @@ body{
 .hide{
     display: none;
   }
-
+  .a{
+    text-decoration: none;
+  }
 .logo{
     width: 150px;
     cursor: pointer;
