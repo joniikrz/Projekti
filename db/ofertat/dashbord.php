@@ -29,7 +29,6 @@
                         <p>Image source: $oferta[Imgsrc]</p>
                         <a href='edit.php?id=$oferta[Id]'>Edit</a>
                         <a href='delete.php?id=$oferta[Id]'>Delete</a>
-                        <a href='register.php'>Add</a>
                     </div>
                 </div>";
             }

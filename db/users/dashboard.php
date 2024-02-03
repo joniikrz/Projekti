@@ -36,7 +36,7 @@
     </div>
     <div class="butonat">
         <button><a href="register.php">ADD</a></button>
-        <button><a href="../users/dashboard.php">User Dashboard</a></button>
+        <button><a href="../travel/dashboard.php">Travel Dashboard</a></button>
         <button><a href="../ofertat/dashboard.php">Ofertat Dashboard</a></button>
     </div>
 </body>

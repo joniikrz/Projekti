@@ -9,11 +9,13 @@
     height: 100%;
     background-position: center;
     background-size: center;
+    
    
 
 }
-.a{
+a{
     text-decoration: none;
+    color: white;
   }
 .nav{
     width: 90%;
@@ -44,10 +46,10 @@
 }
 li{
     cursor: pointer;
-    color: black;
+    color: white;
 }
 li:hover{
-    color: aqua;
+    color: white;
     text-decoration: underline;
   }
 

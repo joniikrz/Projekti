@@ -32,24 +32,19 @@ $ofertat = $ofertatRepository->getAllOfertat();
     <section class="vendet">
         <?php foreach($ofertat as $oferta):?>
         <div class="shtetet">
-            <div class="shteti">
-                <div class="zm">
                     <div class="fotoja">
                         <img src=<?php echo $oferta["Imgsrc"]?> alt="Error">
                     </div>
-                </div>
                 <div class=text>
-                    <h2><?php echo $oferta["Emri"]?></h2>
-                    <p class=cmimi><?php echo $oferta["Cmimi"]?></p>
-                    <div class=info_box>
-                        <p class=koha><?php echo $oferta["Koha"]?></p>
-                        <p class=lokacioni><?php echo $oferta["Lokacioni"]?></p>
+                    <h2 class="s"><?php echo $oferta["Emri"]?></h2>
+                    <p class="cmimi"><?php echo $oferta["Cmimi"]?></p>
+                    <div class="info_box">
+                        <p class="koha"><?php echo $oferta["Koha"]?></p>
+                        <p class="lokacioni"><?php echo $oferta["Lokacioni"]?></p>
                     </div>
                 </div>
-            </div>
         </div>
         <?php endforeach;?>
-
     </section>
   <footer>
     <div class="footer">

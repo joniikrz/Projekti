@@ -25,6 +25,7 @@ $travels = $travelRepository->getAllTravels();
                 <li><a href="../db/users/dashboard.php" class="<?php echo $hide ?>">DASHBOARD</a></li>
                 <li><a href="index2.php">HOME</a></li>
                 <li><a href="index1.php">TRAVEL</a></li>
+                <li><a href="index6.php">OFERTAT</a></li>
                 <li><a href="index3.php">ABOUT US</a></li>
                 <li><a href="../Logout/logout.php">LOG OUT</a></li>
 
@@ -34,26 +35,24 @@ $travels = $travelRepository->getAllTravels();
 
     <p class="ttll">FLIGHTS - 12/23</p>
     <section class="vendet">
-        <?php foreach($travels as $travel):?>
-        <div class="shtetet">
-            <div class="shteti">
-                <div class="zm">
-                    <div class="fotoja">
-                        <img src=<?php echo $travel["Imgsrc"]?> alt="Error">
-                    </div>
+        <?php foreach ($travels as $travel): ?>
+            <div class="shtetet">
+                <div class="fotoja">
+                    <img src=<?php echo $travel["Imgsrc"] ?> alt="Error">
                 </div>
-                <div class=text>
-                    <span class=vlersimi>⭐⭐⭐⭐⭐</span>
-                    <h2><?php echo $travel["Emri"]?></h2>
-                    <p class=cmimi><?php echo $travel["Cmimi"]?></p>
-                    <div class=info_box>
-                        <p class=koha><?php echo $travel["Koha"]?></p>
-                        <p class=lokacioni><?php echo $travel["Lokacioni"]?></p>
+                <div class="text">
+                    <span class="vlersimi s">⭐⭐⭐⭐⭐</span>
+                    <h2 class="s">
+                        <?php echo $travel["Emri"] ?>
+                    </h2>
+                    <p class="cmimi "><?php echo $travel["Cmimi"] ?></p>
+                    <div class="info_box ">
+                        <p class="koha"><?php echo $travel["Koha"] ?> </p>
+                        <p class="lokacioni">-<?php echo $travel["Lokacioni"] ?></p>
                     </div>
                 </div>
             </div>
-        </div>
-        <?php endforeach;?>
+        <?php endforeach; ?>
 
     </section>
     <footer>
