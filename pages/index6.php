@@ -40,7 +40,7 @@ $ofertat = $ofertatRepository->getAllOfertat();
                     <p class="cmimi"><?php echo $oferta["Cmimi"]?></p>
                     <div class="info_box">
                         <p class="koha"><?php echo $oferta["Koha"]?></p>
-                        <p class="lokacioni"><?php echo $oferta["Lokacioni"]?></p>
+                        <p class="lokacioni">-<?php echo $oferta["Lokacioni"]?></p>
                     </div>
                 </div>
         </div>
