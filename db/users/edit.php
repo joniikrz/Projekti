@@ -45,20 +45,22 @@ $updateId->newUSER();
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../addoredit.css">
     <title>Document</title>
 </head>
 <body>
-    <h3>Edit User</h3>
     <form action="" method="post">
-        <input type="text" name="emri" > <br> <br>
-        <input type="text" name="mbiemri"> <br> <br>
-        <input type="text" name="diteLindja" > <br> <br>
-        <input type="text" name="email"> <br> <br>
-        <input type="text" name="password"> <br> <br>
-        <input type="text" name="roli"> <br> <br>
+        <h3>EDIT USER </h3>
+        <input type="text" name="emri" placeholder="Emri.." > <br> <br>
+        <input type="text" name="cmimi" placeholder="Mbiemri.."> <br> <br>
+        <input type="text" name="koha" placeholder="Ditelindja.." > <br> <br>
+        <input type="text" name="lokacioni" placeholder="Email.."> <br> <br>
+        <input type="text" name="imgsrc" placeholder="Password.."> <br> <br>
 
-        <input type="submit" name="editBtn" value="save"> <br> <br>
+        <input type="submit" name="editBtn" value="SAVE"> <br> <br>
     </form>
+
+
 </body>
 </html>
 

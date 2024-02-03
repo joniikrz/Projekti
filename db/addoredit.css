@@ -1,0 +1,36 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    margin: 0;
+    height: 100vh;
+}
+
+form {
+    max-width: 300px;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-top: 70px;
+    margin-bottom: 50px;
+    margin-left: 570px;
+}
+h3{
+    text-align: center;
+    color: black;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 3px solid #444;
+    border-radius: 4px;
+    color: black;
+}
+
+input[type="submit"] {
+    background-color: rgb(8, 100, 8);
+    color: #fff;
+    cursor: pointer;
+}
