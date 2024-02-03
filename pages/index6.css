@@ -118,5 +118,68 @@ padding: 18px 40px;
 border-radius: 3px;
 font-weight: bold;
 }
+@media only screen and (max-width: 768px) {
 
 
+    .nav {
+        padding: 10px;
+    }
+  
+    .logo {
+        width: 100px;
+    }
+  
+    .nav ul li {
+        font-size: 16px;
+        margin: 10px;
+    }
+  
+    .ttll {
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+  
+    .vendet {
+        margin: 20px 10px;
+    }
+  
+    .shtetet {
+        width: 100%;
+        margin: 10px 0;
+    }
+  
+    .info_box {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    
+  
+    .nav ul li {
+        font-size: 14px;
+        margin: 5px;
+    }
+  
+    .ttll {
+        font-size: 25px;
+    }
+  
+    .vendet {
+        margin: 15px 5px;
+  
+    }
+  
+    .shtetet {
+        width: 100%;
+        margin: 5px 2px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+  
+    .info_box {
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+  }
