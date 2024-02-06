@@ -16,7 +16,7 @@ class UserRepository{
         $id=$user->getId();
         $emri = $user->getEmri();
         $mbiemri =$user->getMbiemri();
-        $diteLindja = $user->getMbiemri();
+        $diteLindja = $user->getDitelindja();
         $email = $user->getEmail();
         $password = $user->getPassword();
         $role="user";

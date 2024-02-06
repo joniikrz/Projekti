@@ -52,10 +52,10 @@ $updateId->newUSER();
     <form action="" method="post">
         <h3>EDIT USER </h3>
         <input type="text" name="emri" placeholder="Emri.." > <br> <br>
-        <input type="text" name="cmimi" placeholder="Mbiemri.."> <br> <br>
-        <input type="text" name="koha" placeholder="Ditelindja.." > <br> <br>
-        <input type="text" name="lokacioni" placeholder="Email.."> <br> <br>
-        <input type="text" name="imgsrc" placeholder="Password.."> <br> <br>
+        <input type="text" name="mbiemri" placeholder="Mbiemri.."> <br> <br>
+        <input type="text" name="diteLindja" placeholder="Ditelindja.." > <br> <br>
+        <input type="text" name="email" placeholder="Email.."> <br> <br>
+        <input type="text" name="password" placeholder="Password.."> <br> <br>
 
         <input type="submit" name="editBtn" value="SAVE"> <br> <br>
     </form>
