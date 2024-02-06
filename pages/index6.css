@@ -72,9 +72,11 @@ background: #161A30;
 
 .fotoja{
 width: 100%;
+height: 230px;
 }
 .fotoja img{
 width: 100%;
+height: 100%;
 }
 .text{
 display: flex;
@@ -85,7 +87,12 @@ align-items: center;
 display: flex;
 font-size: 18px;
 }
-
+.info_box:hover{
+  color: grey;
+  text-decoration: underline;
+  transition: all 0.7s ease-in-out;
+  cursor: pointer;
+}
 .s{
 margin: 35px 0px;
 color: white;

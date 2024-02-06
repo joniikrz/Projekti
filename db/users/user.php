@@ -35,6 +35,6 @@ class User{
     function getPassword(){
         return $this->password;
     }
-}
 
+}
 ?>

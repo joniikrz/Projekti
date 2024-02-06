@@ -7,7 +7,6 @@ $travelRepository = new TravelRepository();
 $travels = $travelRepository->getAllTravels();
 ?>
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -47,7 +46,7 @@ $travels = $travelRepository->getAllTravels();
                     </h2>
                     <p class="cmimi "><?php echo $travel["Cmimi"] ?></p>
                     <div class="info_box ">
-                        <p class="koha"><?php echo $travel["Koha"] ?> </p>
+                        <p class=44444444444444"koha"><?php echo $travel["Koha"] ?> </p>
                         <p class="lokacioni">-<?php echo $travel["Lokacioni"] ?></p>
                     </div>
                 </div>

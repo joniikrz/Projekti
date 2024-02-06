@@ -3,7 +3,8 @@ include "UserRepository.php";
 if(isset($_POST['loginbtn'])){
 if(empty($_POST['email']) || empty($_POST['password'])){
   echo "<script> alert('Fill all the fields')</script>";
-}else{
+}
+else{
     $userRepository = new UserRepository();
     $users = $userRepository->getAllUsers();
 
@@ -24,4 +25,5 @@ if(empty($_POST['email']) || empty($_POST['password'])){
     echo "<script> alert('Incorrect username or password')</script>";
 }
 }
+
 ?>
